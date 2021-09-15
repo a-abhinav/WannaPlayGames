@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(73, 79, 82);
+  color: white;
+  height: 50px;
+}
+
+nav h3 {
+  text-align: left;
+  margin-left: 2em;
+  flex-grow: 1;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.nav-links {
+  width: 30%;
+  display: flex;
+  padding-top: 15px;
+  justify-content: space-evenly;
+  list-style: none;
+  text-align: center;
+  height: 100%;
+  margin-bottom: 8px;
+}
+
+.car-item {
+  max-height: 800px;
+}
+
+.food-details {
+  background-color: beige;
+}
+.food-details h1 {
+  padding-top: 20px;
+  color: rgb(207, 116, 56);
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.items img {
+  width: 30%;
+  height: 20%;
+  object-fit: contain;
+  border-radius: 10%;
+  align-items: center;
+}
+
+.items p {
+  font-size: 1.15em;
+  width: 50%;
+  color: rgb(207, 116, 56);
+}
+
+/* signup */
+.signup {
+  background-color: beige;
+}
+.signup h1 {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  font-weight: bold;
+  font-size: 2em;
+  color: rgb(207, 116, 56);
+}
+
+/* form css */
+
+.formWrapper {
+  display: inline-block;
+  padding: 2vmin 0;
+  width: 80%;
+  height: 60%;
+  border: 5px solid rgba(255, 215, 105, 0.884);
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.formWrapper h3 {
+  color: rgb(207, 116, 56);
+  font-size: 1em;
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+.input {
+  padding: 0.5vmin 2vmin;
+  border-radius: 1vmin;
+  border: none;
+  font-size: 1.5em;
+  width: 60%;
+  /* text-align: center; */
+  margin-bottom: 1em;
+}
+
+.label {
+  width: 25%;
+  font-size: 3vmin;
+  padding-right: 3vmin;
+  color: rgb(207, 116, 56);
+}
+
+.submit {
+  font-size: 4vmin;
+  width: 50%;
+  background-color: beige;
+  color: rgb(207, 116, 56);
+  border: 2px solid rgba(255, 215, 105, 0.884);
+  border-radius: 36px;
+  transition: ease-in 0.5s;
+}
+
+.submit:hover {
+  background-color: rgba(255, 215, 105, 0.884);
+  color: rgb(207, 116, 56);
+}
+
+/* footer */
+
+footer {
+  background: rgb(73, 79, 82);
+  width: 100vw;
+  margin-bottom: 0;
+  color: white;
+  height: 50px;
+  /* position: relative; */
+  /* z-index: 10; */
+}
